@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    
+}
+nav{
+    height: 100px;
+    background-color: lightslategray;
+}
+nav > a {
+    padding: 20px;
+    color: white;
+    background-color: grey;
+    font-family: 'Lobster Two', cursive;
+}
+.hero{
+    background-image: url(https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+.btn{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: 45%;
+    left: 46%;
+}
+.gallery{
+    column-count: 4;
+    padding: 5%;
+}
+.col{
+    margin: 20px;
+}
+.gallery-img{
+    height: 300px;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+i{
+    font-size: 50px;
+    letter-spacing: 50px;
+    position: relative;
+    left:45%;
+}
